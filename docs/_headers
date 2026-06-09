@@ -1,0 +1,6 @@
+# Cloudflare Pages headers - fix MIME types for JS modules
+/mime-types
+  Content-Type: application/javascript
+/*.js
+  Content-Type: application/javascript
+  Cache-Control: public, max-age=31536000, immutable

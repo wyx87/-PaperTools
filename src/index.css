@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1E3A5F;
+  --color-primary-light: #2E5A8F;
+  --color-primary-dark: #14273F;
+  --color-accent: #3B82F6;
+  --color-accent-light: #60A5FA;
+  --color-accent-dark: #2563EB;
+  --color-surface: #F8F9FA;
+  --color-card: #FFFFFF;
+  --color-border: #E5E7EB;
+  --color-text: #1F2937;
+  --color-text-secondary: #6B7280;
+  --color-text-muted: #9CA3AF;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F8FAFC;
+  color: #1E293B;
+}
+
+/* Global text size boost: buttons, inputs, textareas */
+button, input, textarea, select {
+  font-size: 0.9375rem;
+}
+
+textarea, pre, code {
+  font-size: 0.9375rem;
+}
+
+/* Small text: ensure minimum 13px for readability */
+.text-2xs, .text-\[10px\] {
+  font-size: 0.8125rem !important;
+}
+.text-\[11px\] {
+  font-size: 0.875rem !important;
+}
+.text-\[12px\] {
+  font-size: 0.9375rem !important;
+}
+
+/* Card titles */
+.card-title, .text-\[13px\].font-semibold {
+  font-size: 0.9375rem !important;
+}
