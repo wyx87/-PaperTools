@@ -29,6 +29,12 @@ pnpm-debug.log*
 *.sln
 *.sw?
 
+# Build output (Cloudflare will build this)
+docs/
+
+# Nested repo causing submodule errors
+-PaperTools/
+
 # Debug / temp files
 debug.mjs
 debug-screenshot.png
