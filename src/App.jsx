@@ -25,7 +25,7 @@ import ReferenceHome from './pages/ReferenceHome'
 import ReferenceGenerator from './pages/ReferenceGenerator'
 import SortAuthorsPage from './pages/SortAuthorsPage'
 
-// 图表·表格·公式模块
+// 图表·表格模块
 import ChartHome from './pages/ChartHome'
 import BarChartPage from './pages/BarChartPage'
 import LineChartPage from './pages/LineChartPage'
@@ -37,7 +37,6 @@ import ComboChartPage from './pages/ComboChartPage'
 import TablePage from './pages/TablePage'
 import FlowchartPage from './pages/FlowchartPage'
 import MindmapPage from './pages/MindmapPage'
-import FormulaPage from './pages/FormulaPage'
 
 // 投稿检查模块
 import SubmitHome from './pages/SubmitHome'
@@ -92,7 +91,6 @@ export default function App() {
           <Route path="chart/table" element={<TablePage />} />
           <Route path="chart/flowchart" element={<FlowchartPage />} />
           <Route path="chart/mindmap" element={<MindmapPage />} />
-          <Route path="chart/formula" element={<FormulaPage />} />
 
           {/* 投稿检查模块 */}
           <Route path="submit" element={<SubmitHome />} />

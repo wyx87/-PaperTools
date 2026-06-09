@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import {
   BarChart3, TrendingUp, PieChart, GitFork, BrainCircuit,
-  FunctionSquare, Table2, ArrowRight, Shield,
+  Table2, ArrowRight, Shield,
 } from 'lucide-react'
 
 const tools = [
@@ -15,14 +15,13 @@ const tools = [
   { to: '/chart/table', icon: Table2, label: '三线表', desc: '学术规范表格', color: 'bg-amber-100 text-amber-600' },
   { to: '/chart/flowchart', icon: GitFork, label: '流程图', desc: 'Mermaid·预设模板', color: 'bg-green-100 text-green-600' },
   { to: '/chart/mindmap', icon: BrainCircuit, label: '思维导图', desc: '论文大纲·文献分类', color: 'bg-violet-100 text-violet-600' },
-  { to: '/chart/formula', icon: FunctionSquare, label: '公式渲染', desc: 'LaTeX·模板库', color: 'bg-rose-100 text-rose-600' },
 ]
 
 export default function ChartHome() {
   return (
     <div className="max-w-5xl mx-auto">
       <h1 className="text-2xl font-bold text-[#1E3A5F] mb-1.5">图表·表格·公式</h1>
-      <p className="text-sm text-[#6B7280] mb-2">11 个专业工具，覆盖论文图表制作全流程</p>
+      <p className="text-sm text-[#6B7280] mb-2">10 个专业工具，覆盖论文图表制作全流程</p>
       <div className="w-12 h-0.5 bg-gradient-to-r from-[#3B82F6] to-[#60A5FA] rounded-full mb-6" />
 
       {/* Privacy */}
@@ -34,7 +33,7 @@ export default function ChartHome() {
           <div>
             <h3 className="font-semibold text-[#1E3A5F] text-sm mb-0.5">纯本地处理</h3>
             <p className="text-xs text-[#6B7280] leading-relaxed">
-              所有图表、表格、公式均在浏览器中渲染，数据不会上传。ECharts / Mermaid / KaTeX 均为开源前端库。
+              所有图表、表格均在浏览器中渲染，数据不会上传。ECharts / Mermaid 均为开源前端库。
             </p>
           </div>
         </div>

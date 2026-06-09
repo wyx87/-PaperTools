@@ -3,7 +3,7 @@ import {
   FileText, FileOutput, Combine, Scissors, FileDown, Image as ImageIcon, RotateCw,
   PenTool, Type, Pilcrow, Library as LibIcon, Eraser,
   BookMarked, ArrowUpDown,
-  BarChart3, Table2, TrendingUp, PieChart, GitFork, BrainCircuit, FunctionSquare,
+  BarChart3, Table2, TrendingUp, PieChart, GitFork, BrainCircuit,
   Send, Shield,
   ChevronRight, ArrowLeft, Lock,
 } from 'lucide-react'
@@ -63,8 +63,8 @@ const categoryConfig = {
     note: '提示：引用格式请以目标期刊/学校的最终要求为准，本文具仅供辅助。',
   },
   chart: {
-    title: '图表·表格·公式',
-    desc: '11 个专业工具，覆盖论文图表、表格、流程图、思维导图及公式渲染全流程。',
+    title: '图表·表格',
+    desc: '10 个专业工具，覆盖论文图表、表格、流程图、思维导图全流程。',
     icon: BarChart3,
     iconBg: '#FAF5FF',
     iconBorder: '#F3E8FF',
@@ -80,7 +80,6 @@ const categoryConfig = {
       { to: '/chart/table', icon: Table2, label: '三线表', desc: '学术规范表格' },
       { to: '/chart/flowchart', icon: GitFork, label: '流程图', desc: '缩进大纲·多样式' },
       { to: '/chart/mindmap', icon: BrainCircuit, label: '思维导图', desc: '论文大纲·文献分类' },
-      { to: '/chart/formula', icon: FunctionSquare, label: '公式渲染', desc: 'LaTeX·模板库' },
     ],
   },
   submit: {

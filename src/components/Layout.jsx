@@ -45,7 +45,6 @@ const navItems = [
   { path: '/chart/table', icon: Table2, label: '三线表', indent: true },
   { path: '/chart/flowchart', icon: GitFork, label: '流程图', indent: true },
   { path: '/chart/mindmap', icon: BrainCircuit, label: '思维导图', indent: true },
-  { path: '/chart/formula', icon: FunctionSquare, label: '公式渲染', indent: true },
   { section: '投稿检查' },
   { path: '/submit', icon: Send, label: '投稿工具首页', indent: true },
   { path: '/submit/cover-letter', icon: FileText, label: '投稿信生成', indent: true },
